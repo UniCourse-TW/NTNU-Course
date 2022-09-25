@@ -29,7 +29,7 @@ jobs:
               run: pnpm run lint
 
             - name: Run Jest
-              uses: ArtiomTr/jest-coverage-report-action@168e17b6c9de88eddacf0d5ded5e3905573af7f2
+              uses: ArtiomTr/jest-coverage-report-action@058d339f88c7b8f14dd392d220bc4a1067a0374c
               with:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
                   package-manager: pnpm
